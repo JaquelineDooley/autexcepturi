@@ -1,0 +1,49 @@
+{
+  "name": "autexcepturi",
+  "version": "1.0.0",
+  "description": "A JavaScript package with Key Code constants",
+  "license": "MIT",
+  "author": "AlexandreBoyle",
+  "main": "dist/keycode.cjs.js",
+  "module": "dist/keycode.es6.js",
+  "types": "mod.d.ts",
+  "unpkg": "dist/keycode.min.js",
+  "jsdelivr": "dist/keycode.min.js",
+  "files": [
+    "dist",
+    "mod.d.ts",
+    "bower.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaquelineDooley/autexcepturi.git"
+  },
+  "keywords": [
+    "est",
+    "praesentium",
+    "javascript",
+    "vel",
+    "sint",
+    "consectetur",
+    "aspernatur"
+  ],
+  "scripts": {
+    "build": "./t build",
+    "changelog": "./t changelog",
+    "prepublishOnly": "./t build",
+    "test": "./t build && ./t test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^6.2.0",
+    "mocha-headless-chrome": "^2.0.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "typescript": "^3.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/JaquelineDooley/autexcepturi.git/issues"
+  }
+}
